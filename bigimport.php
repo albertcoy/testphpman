@@ -1,3 +1,4 @@
+<?php 
 for i in {1..999};
 do curl https://store-aa5zk98er0.mybigcommerce.com/api/v2/orders -X POST \
   -H "Content-type: application/json" \
@@ -51,4 +52,4 @@ do curl https://store-aa5zk98er0.mybigcommerce.com/api/v2/orders -X POST \
 clear;
 
 echo "processed $i of 999";
-done
+donedone
